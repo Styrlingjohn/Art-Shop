@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Website from "./components/Site";
+import Website from "./components/Website";
 
 
 
