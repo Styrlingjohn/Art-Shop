@@ -9,23 +9,34 @@ const HomePage = () => {
     { url: "http://localhost:3000/valley.jpg", title: "valley" },
     { url: "http://localhost:3000/desert.webp", title: "italy" },
   ];
+
+  const slides1 = [
+    { url: "http://localhost:3000/boxing.jpg", title: "beach" },
+    { url: "http://localhost:3000/kobe.jpg", title: "waves" },
+    { url: "http://localhost:3000/football.jpg", title: "mountain" },
+    { url: "http://localhost:3000/hockey.jpg", title: "valley" },
+    { url: "http://localhost:3000/running.webp", title: "italy" },
+  ];
   const containerStyles = {
     width: "500px",
     height: "280px",
     margin: "0 auto",
-    backgroundColor: "#e0ffcd",
   };
   const headerStyle = {
      textAlign: "center",
+     marginTop: "10px",
   };
 
   return (
-    <div>
-
-      <div style={containerStyles}>
-        <h1 style={headerStyle}>Nature</h1>
+    <div className='displayBox'>
+      <div style={containerStyles} className='nature'>
+        <h1 style={headerStyle}>Jimmy Smith</h1>
         <ImageSlider slides={slides} parentWidth={500} />
       </div>
+      <div style={containerStyles} className='sports'>
+        <h1 style={headerStyle}>Ray Quaza</h1>
+        <ImageSlider slides={slides1} parentWidth={500}/>
+        </div>
     </div>
   );
 };

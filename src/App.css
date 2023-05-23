@@ -73,3 +73,12 @@
     height: 100%;
     background-color: rgba(0,0,0,0.8);
   }
+  .nature {
+    background-color: #e0ffcd
+  }
+  .sports {
+    background-color: #c7b198;
+  }
+  .displayBox {
+    display: flex;    
+  }

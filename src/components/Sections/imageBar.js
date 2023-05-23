@@ -39,7 +39,6 @@ const sliderStyles = {
 const dotsContainerStyles = {
   display: "flex",
   justifyContent: "center",
-  backgroundColor: "#e0ffcd",
 };
 
 const dotStyle = {
@@ -52,7 +51,6 @@ const slidesContainerStyles = {
   display: "flex",
   height: "100%",
   transition: "transform ease-out 2.0s",
-  backgroundColor: "#e0ffcd",
 };
 
 const slidesContainerOverflowStyles = {
